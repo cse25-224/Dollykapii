@@ -1,0 +1,211 @@
+/* =========================
+   GLOBAL STYLES
+========================= */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* =========================
+   PINK COLOR SYSTEM (FALLBACKS)
+========================= */
+/*
+Main dusty pink system:
+1. #d8a7b1 (primary dusty pink)
+2. #e6b7c1 (soft pink fallback)
+3. #c78b98 (darker dusty pink fallback)
+*/
+
+/* =========================
+   NAVIGATION BAR
+========================= */
+
+.navbar {
+    background-color: #d8a7b1;
+    background-color: #e6b7c1; /* fallback 1 */
+    background-color: #c78b98; /* fallback 2 */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: white !important;
+}
+
+.nav-link {
+    color: white !important;
+    margin-right: 10px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Logo */
+.logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+/* =========================
+   HERO SECTION
+========================= */
+
+.hero {
+    background-color: #f7d6dd;
+    background-color: #f3c6d0; /* fallback */
+    background-color: #efd0d8; /* fallback */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 40px;
+    color: #333;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+
+.btn-dark {
+    background-color: #d8a7b1;
+    background-color: #e6b7c1; /* fallback */
+    border: none;
+}
+
+.btn-dark:hover {
+    background-color: #c78b98;
+}
+
+.btn-light {
+    background-color: white;
+    color: #d8a7b1;
+}
+
+.btn-light:hover {
+    background-color: #f2f2f2;
+}
+
+.btn-outline-light {
+    border: 1px solid white;
+    color: white;
+}
+
+.btn-outline-light:hover {
+    background-color: white;
+    color: #d8a7b1;
+}
+
+/* =========================
+   CARDS
+========================= */
+
+.card {
+    border: none;
+    border-radius: 12px;
+}
+
+.card h3,
+.card h4 {
+    color: #d8a7b1;
+    color: #e6b7c1; /* fallback */
+}
+
+/* =========================
+   FORMS
+========================= */
+
+.form-control,
+.form-select {
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #d8a7b1;
+    box-shadow: 0 0 5px #e6b7c1;
+}
+
+/* =========================
+   GALLERY
+========================= */
+
+.gallery-img {
+    transition: transform 0.3s ease;
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
+}
+
+/* =========================
+   SUPPORT PAGE
+========================= */
+
+.card ul li {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+/* =========================
+   FAQ ACCORDION
+========================= */
+
+.accordion-button {
+    background-color: #f7d6dd;
+    background-color: #f3c6d0;
+    color: #333;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #d8a7b1;
+    background-color: #e6b7c1;
+    color: white;
+}
+
+.accordion-body {
+    background-color: #ffffff;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    background-color: #d8a7b1;
+    background-color: #e6b7c1;
+    background-color: #c78b98;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.social-icon {
+    font-size: 20px;
+    margin: 0 10px;
+    color: white;
+}
+
+.social-icon:hover {
+    color: #333;
+}
+
+/* =========================
+   SUPPORT TEXT
+========================= */
+
+#responseMsg {
+    color: green;
+    font-weight: bold;
+}
